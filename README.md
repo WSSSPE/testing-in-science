@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fangohr/testing-in-science-1.svg?branch=master)](https://travis-ci.org/fangohr/testing-in-science-1)
+
 # Repository of WSSSPE Working group on software testing in computational science
 
 Initial thoughts from [WSSSPE 4
