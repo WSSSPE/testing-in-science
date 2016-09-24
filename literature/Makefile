@@ -1,5 +1,5 @@
 test:
-	test -v
+	py.test -v
 
 clean:
 	cd tests && rm -f *.aux *.log *bbl *.blg *log *pdf *.log
