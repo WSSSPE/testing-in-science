@@ -1,0 +1,37 @@
+* References we should include and refer to
+
+** Standard problem
+
+The following material emerged from a discussion between Jonah and
+Hans at the WSSSPE meeting in Manchester in September 2016:
+
+
+
+On 14 Sep 2016, at 16:25, Jonah Miller <jmiller@perimeterinstitute.ca<mailto:jmiller@perimeterinstitute.ca>> wrote:
+
+
+Hi Hans,
+
+
+In 2003, the numerical relativity community hosted a series of workshops working to develop a series of tests with which to compare codes and test how well they work. The original website for this effort was here:
+
+http://www.appleswithapples.org/
+
+This effort resulted in a pair of papers:
+
+http://dx.doi.org/10.1088/0264-9381/21/2/019<http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1088%2F0264-9381%2F21%2F2%2F019&v=ea059225>
+
+http://dx.doi.org/10.1088/0264-9381/25/12/125012<http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1088%2F0264-9381%2F25%2F12%2F125012&v=3bbdb174>
+
+These tests are used for code validation when a new code is written or a new algorithm is used. For example I recently used them in this paper:
+http://arxiv.org/abs/1604.00075
+
+The code I work on, the Einstein Toolkit uses regression tests that are based on problems that we solve regularly. For example these problems on the website tutorial:
+https://einsteintoolkit.org/about/gallery/
+
+There are some other tests and examples that should be up there but I can't find them at a moment.
+
+I hope this helps!
+
+Best,
+Jonah
