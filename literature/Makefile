@@ -1,6 +1,9 @@
 test:
 	py.test -v
 
+all: test summary.pdf citeall.pdf
+	
+
 clean:
 	cd tests && rm -f *.aux *.log *bbl *.blg *log *pdf *.log
 	rm -rf tests/.cache tests/__pycache__
