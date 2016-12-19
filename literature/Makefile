@@ -6,6 +6,8 @@ clean:
 	rm -rf tests/.cache tests/__pycache__
 	rm -f *.aux *.log *bbl *.blg *log *pdf *.log
 	rm -rf .cache __pycache__
+	rm -f citeall.pdf
+
 
 summary.pdf: summary.tex papers.bib
 	pdflatex summary.tex
