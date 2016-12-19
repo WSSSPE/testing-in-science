@@ -14,3 +14,10 @@ summary.pdf: summary.tex papers.bib
 	pdflatex summary.tex
 
 
+citeall.pdf: tests/citeall.tex papers.bib
+	cd tests && pdflatex citeall.tex
+	cd tests && bibtex citeall
+	cd tests && pdflatex citeall.tex
+	cd tests && pdflatex citeall.tex
+	cp tests/citeall.pdf citeall.pdf
+	@echo "All publications from papers.bib are listed in citeall.pdf"
