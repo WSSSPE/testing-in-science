@@ -1,7 +1,7 @@
 import subprocess
 
 
-def test_papersbib():
+def test_papersbib_via_citeall():
     command = "cd tests && pdflatex -halt-on-error citeall.tex"
 
     # We should allow for the test to time out; latex does that in
@@ -15,7 +15,7 @@ def test_papersbib():
     assert retcode == 0
 
 
-def test_bibtex():
+def test_bibtex_via_citeall():
     
 
     # setup system: need to call latex once before running bibtex
@@ -46,6 +46,3 @@ def test_latex_summary():
     print("Output from command '{}'".format(command))
     print(output)
     assert retcode == 0
-
-
-
